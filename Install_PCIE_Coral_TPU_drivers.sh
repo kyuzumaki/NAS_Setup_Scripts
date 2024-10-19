@@ -12,3 +12,5 @@ sudo apt-get install gasket-dkms libedgetpu1-std
 sudo sh -c "echo 'SUBSYSTEM==\"apex\", MODE=\"0660\", GROUP=\"apex\"' >> /etc/udev/rules.d/65-apex.rules"
 sudo groupadd apex
 sudo adduser $USER apex
+
+# if its working ls /dev/apex_0 should show /dev/apex_0 
